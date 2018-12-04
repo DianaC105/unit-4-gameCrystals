@@ -17,9 +17,6 @@ body {
     height:120px;
 }
 
-/*.container {
-    text-align: center;
-}*/
 
 .instructions {
    background-color: transparent !important;
@@ -37,17 +34,6 @@ body {
     text-shadow: 2px 2px 2px 2px rgb(0, 247, 255);
 }
 
-/*.crystal { 
-    background-color: transparent !important;
-
-}
-
-
-/*p {font-family: 'Oleo Script Swash Caps', cursive;
-    color: white;
-    font-size:60px;
-    text-shadow: 2px 2px 2px 2px rgb(0, 247, 255);
-}*/
 
 .target-number {
     font-family: 'Oleo Script Swash Caps', cursive;

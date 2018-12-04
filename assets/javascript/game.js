@@ -1,4 +1,4 @@
-// Institute Variables
+// Variables
 
 var targetNumber = "";
 var wins = 0;
@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 // Click Functions
 	function crystalClick () {
-		//attr returns first value of selected html element
+		// returns first value of selected html element
 		counter += parseInt($(this).attr("value"));
 		$(".score-number").html(counter);
 		if (counter == targetNumber) {
@@ -63,7 +63,7 @@ $(document).ready(function(){
 		};
 	};
 
-	//Throughout life cycle of the document, accounting for every single time document is dynamically changed execute crystalClick function
+
     $(document).on("click", ".crystal", crystalClick);
     
 });
